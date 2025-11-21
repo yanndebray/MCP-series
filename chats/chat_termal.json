@@ -1,0 +1,3794 @@
+{
+  "requesterUsername": "yanndebray",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/128002745",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_b84c4529-5bc9-4962-85a9-17e3428d7b6f",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 73
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 74
+            },
+            "text": "create a readme and organise the repo with different folder for each apps",
+            "kind": "text"
+          }
+        ],
+        "text": "create a readme and organise the repo with different folder for each apps"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "id": "vscode.prompt.instructions.text",
+            "name": "prompt:instructionsList",
+            "value": "Here is a list of instruction files that contain rules for modifying or creating new code.\nThese files are important for ensuring that the code is modified or created correctly.\nPlease make sure to follow the rules specified in these files when working with the codebase.\nIf the file is not already available as attachment, use the `read_file` tool to acquire it.\nMake sure to acquire the instructions before making any changes to the code.\n| File | Applies To | Description |\n| ------- | --------- | ----------- |\n| 'c:\\Users\\ydebray\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md' | **/*-post-r-pm-* |  |\n| 'c:\\Users\\ydebray\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md' | **/*-pre-r-pm-* |  |\n| 'c:\\Users\\ydebray\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md' | **/*-post-c-pm-* |  |\n| 'c:\\Users\\ydebray\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md' | **/*-pre-c-pm-* |  |\n| 'c:\\Users\\ydebray\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md' | **/*-post-f-pm-* |  |\n| 'c:\\Users\\ydebray\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md' | **/*-pre-f-pm-* |  |",
+            "kind": "promptText",
+            "modelDescription": "Prompt instructions list",
+            "automaticallyAdded": true
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "I'll help you organize the repository by creating folders for each app and adding a README file. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_readFile"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Reading [](file:///c%3A/Users/ydebray/Downloads/MCP-series/linear_regression.m)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/linear_regression.m": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/linear_regression.m",
+                "scheme": "file"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Read [](file:///c%3A/Users/ydebray/Downloads/MCP-series/linear_regression.m)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/linear_regression.m": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/linear_regression.m",
+                "scheme": "file"
+              }
+            }
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "be875a5c-49e4-48ec-8c55-cdf0e96e4093",
+          "toolId": "copilot_readFile"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Reading [](file:///c%3A/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m#1-1), lines 1 to 50",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m#1-1": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m",
+                "scheme": "file",
+                "fragment": "1-1"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Read [](file:///c%3A/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m#1-1), lines 1 to 50",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m#1-1": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m",
+                "scheme": "file",
+                "fragment": "1-1"
+              }
+            }
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "2ac129a2-70be-4087-8af8-de9994839d5b",
+          "toolId": "copilot_readFile"
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Manage and track todo items for task planning\"",
+          "pastTenseMessage": {
+            "value": "Created 4 todos",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "todoList",
+            "sessionId": "f8d25f9a-3f06-496b-b782-cdc0c228714a",
+            "todoList": [
+              {
+                "id": "1",
+                "title": "Create folders for each app",
+                "description": "",
+                "status": "not-started"
+              },
+              {
+                "id": "2",
+                "title": "Move linear_regression.m to its folder",
+                "description": "",
+                "status": "not-started"
+              },
+              {
+                "id": "3",
+                "title": "Move ThermalDiffusionApp.m to its folder",
+                "description": "",
+                "status": "not-started"
+              },
+              {
+                "id": "4",
+                "title": "Create README.md for the repository",
+                "description": "",
+                "status": "not-started"
+              }
+            ]
+          },
+          "toolCallId": "172bcabb-4bff-4425-8c9a-e5535dfb073e",
+          "toolId": "manage_todo_list"
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Manage and track todo items for task planning\"",
+          "pastTenseMessage": {
+            "value": "Starting: *Create folders for each app* (1/4)",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "todoList",
+            "sessionId": "f8d25f9a-3f06-496b-b782-cdc0c228714a",
+            "todoList": [
+              {
+                "id": "1",
+                "title": "Create folders for each app",
+                "description": "",
+                "status": "in-progress"
+              },
+              {
+                "id": "2",
+                "title": "Move linear_regression.m to its folder",
+                "description": "",
+                "status": "not-started"
+              },
+              {
+                "id": "3",
+                "title": "Move ThermalDiffusionApp.m to its folder",
+                "description": "",
+                "status": "not-started"
+              },
+              {
+                "id": "4",
+                "title": "Create README.md for the repository",
+                "description": "",
+                "status": "not-started"
+              }
+            ]
+          },
+          "toolCallId": "34a222f2-8353-403c-9b3b-a0e09ea6a267",
+          "toolId": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Creating [](file:///c%3A/Users/ydebray/Downloads/MCP-series/linear-regression)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/linear-regression": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/linear-regression",
+                "scheme": "file"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Created [](file:///c%3A/Users/ydebray/Downloads/MCP-series/linear-regression)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/linear-regression": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/linear-regression",
+                "scheme": "file"
+              }
+            }
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "39639a71-f4bb-4337-8180-b7e3ee64b6ec",
+          "toolId": "copilot_createDirectory"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Creating [](file:///c%3A/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app",
+                "scheme": "file"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Created [](file:///c%3A/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app",
+                "scheme": "file"
+              }
+            }
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "7ecd55c0-59a5-44d8-8674-c7e9a15d7da3",
+          "toolId": "copilot_createDirectory"
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Manage and track todo items for task planning\"",
+          "pastTenseMessage": {
+            "value": "Starting: *Move linear_regression.m to its folder* (2/4)",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "todoList",
+            "sessionId": "f8d25f9a-3f06-496b-b782-cdc0c228714a",
+            "todoList": [
+              {
+                "id": "1",
+                "title": "Create folders for each app",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "2",
+                "title": "Move linear_regression.m to its folder",
+                "description": "",
+                "status": "in-progress"
+              },
+              {
+                "id": "3",
+                "title": "Move ThermalDiffusionApp.m to its folder",
+                "description": "",
+                "status": "not-started"
+              },
+              {
+                "id": "4",
+                "title": "Create README.md for the repository",
+                "description": "",
+                "status": "not-started"
+              }
+            ]
+          },
+          "toolCallId": "3807db94-2716-4f6e-b679-786e2b5e2d0a",
+          "toolId": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalToolSessionId": "9c64bfd5-398d-484e-a783-64c32c035df3",
+            "terminalCommandId": "tool-df1f5d93-6202-4a09-94d1-b5a1c10f4482",
+            "commandLine": {
+              "original": "move \"c:\\Users\\ydebray\\Downloads\\MCP-series\\linear_regression.m\" \"c:\\Users\\ydebray\\Downloads\\MCP-series\\linear-regression\\linear_regression.m\""
+            },
+            "language": "pwsh"
+          },
+          "toolCallId": "7f8bc7ca-8ee0-4ff0-96f2-6667317dd489",
+          "toolId": "run_in_terminal"
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Manage and track todo items for task planning\"",
+          "pastTenseMessage": {
+            "value": "Starting: *Move ThermalDiffusionApp.m to its folder* (3/4)",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "todoList",
+            "sessionId": "f8d25f9a-3f06-496b-b782-cdc0c228714a",
+            "todoList": [
+              {
+                "id": "1",
+                "title": "Create folders for each app",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "2",
+                "title": "Move linear_regression.m to its folder",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "3",
+                "title": "Move ThermalDiffusionApp.m to its folder",
+                "description": "",
+                "status": "in-progress"
+              },
+              {
+                "id": "4",
+                "title": "Create README.md for the repository",
+                "description": "",
+                "status": "not-started"
+              }
+            ]
+          },
+          "toolCallId": "d4519d79-d2ea-4c66-8697-69a2bf6c93c3",
+          "toolId": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalToolSessionId": "9f4a5297-c341-4741-9925-abea2028d55e",
+            "terminalCommandId": "tool-0c001a7c-7fbf-4493-affb-35bf0a6230ac",
+            "commandLine": {
+              "original": "move \"c:\\Users\\ydebray\\Downloads\\MCP-series\\ThermalDiffusionApp.m\" \"c:\\Users\\ydebray\\Downloads\\MCP-series\\thermal-diffusion-app\\ThermalDiffusionApp.m\""
+            },
+            "language": "pwsh"
+          },
+          "toolCallId": "370346df-08cd-488d-9d38-c6719bed293d",
+          "toolId": "run_in_terminal"
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Manage and track todo items for task planning\"",
+          "pastTenseMessage": {
+            "value": "Starting: *Create README.md for the repository* (4/4)",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "todoList",
+            "sessionId": "f8d25f9a-3f06-496b-b782-cdc0c228714a",
+            "todoList": [
+              {
+                "id": "1",
+                "title": "Create folders for each app",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "2",
+                "title": "Move linear_regression.m to its folder",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "3",
+                "title": "Move ThermalDiffusionApp.m to its folder",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "4",
+                "title": "Create README.md for the repository",
+                "description": "",
+                "status": "in-progress"
+              }
+            ]
+          },
+          "toolCallId": "d417eb4f-3528-462f-b977-9758912dbf50",
+          "toolId": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Creating [](file:///c%3A/Users/ydebray/Downloads/MCP-series/README.md)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/README.md": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/README.md",
+                "scheme": "file"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Created [](file:///c%3A/Users/ydebray/Downloads/MCP-series/README.md)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///c%3A/Users/ydebray/Downloads/MCP-series/README.md": {
+                "$mid": 1,
+                "path": "/c:/Users/ydebray/Downloads/MCP-series/README.md",
+                "scheme": "file"
+              }
+            }
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "4cb46c4c-e438-4925-9144-82cc78981df3",
+          "toolId": "copilot_createFile"
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\README.md",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/README.md",
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/README.md",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "# MCP Series - MATLAB Applications",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 1,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 2,
+                  "startColumn": 1,
+                  "endLineNumber": 2,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nThis repository contains MATLAB applications demonstrating various computational techniques and simulations.",
+                "range": {
+                  "startLineNumber": 3,
+                  "startColumn": 1,
+                  "endLineNumber": 3,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 4,
+                  "startColumn": 1,
+                  "endLineNumber": 4,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n## Overview",
+                "range": {
+                  "startLineNumber": 5,
+                  "startColumn": 1,
+                  "endLineNumber": 5,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 1,
+                  "endLineNumber": 6,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nA collection of MATLAB scripts and applications showcasing data analysis, modeling, and interactive simulations.",
+                "range": {
+                  "startLineNumber": 7,
+                  "startColumn": 1,
+                  "endLineNumber": 7,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 8,
+                  "startColumn": 1,
+                  "endLineNumber": 8,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n## Applications",
+                "range": {
+                  "startLineNumber": 9,
+                  "startColumn": 1,
+                  "endLineNumber": 9,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 10,
+                  "startColumn": 1,
+                  "endLineNumber": 10,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n### 1. Linear Regression",
+                "range": {
+                  "startLineNumber": 11,
+                  "startColumn": 1,
+                  "endLineNumber": 11,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n**Location:** `linear-regression/`",
+                "range": {
+                  "startLineNumber": 12,
+                  "startColumn": 1,
+                  "endLineNumber": 12,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 13,
+                  "startColumn": 1,
+                  "endLineNumber": 13,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nA simple linear regression example that demonstrates:",
+                "range": {
+                  "startLineNumber": 14,
+                  "startColumn": 1,
+                  "endLineNumber": 14,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Data generation with controlled noise",
+                "range": {
+                  "startLineNumber": 15,
+                  "startColumn": 1,
+                  "endLineNumber": 15,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Polynomial fitting using `polyfit`",
+                "range": {
+                  "startLineNumber": 16,
+                  "startColumn": 1,
+                  "endLineNumber": 16,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Model evaluation with R-squared metric",
+                "range": {
+                  "startLineNumber": 17,
+                  "startColumn": 1,
+                  "endLineNumber": 17,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Visualization of data and fitted line",
+                "range": {
+                  "startLineNumber": 18,
+                  "startColumn": 1,
+                  "endLineNumber": 18,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 19,
+                  "startColumn": 1,
+                  "endLineNumber": 19,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n**Features:**",
+                "range": {
+                  "startLineNumber": 20,
+                  "startColumn": 1,
+                  "endLineNumber": 20,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Generates synthetic data with a known linear relationship",
+                "range": {
+                  "startLineNumber": 21,
+                  "startColumn": 1,
+                  "endLineNumber": 21,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Performs least-squares linear regression",
+                "range": {
+                  "startLineNumber": 22,
+                  "startColumn": 1,
+                  "endLineNumber": 22,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Calculates goodness-of-fit metrics",
+                "range": {
+                  "startLineNumber": 23,
+                  "startColumn": 1,
+                  "endLineNumber": 23,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Creates scatter plots with fitted regression line",
+                "range": {
+                  "startLineNumber": 24,
+                  "startColumn": 1,
+                  "endLineNumber": 24,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 25,
+                  "startColumn": 1,
+                  "endLineNumber": 25,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n**Usage:**",
+                "range": {
+                  "startLineNumber": 26,
+                  "startColumn": 1,
+                  "endLineNumber": 26,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n```matlab",
+                "range": {
+                  "startLineNumber": 27,
+                  "startColumn": 1,
+                  "endLineNumber": 27,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\ncd linear-regression",
+                "range": {
+                  "startLineNumber": 28,
+                  "startColumn": 1,
+                  "endLineNumber": 28,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nlinear_regression",
+                "range": {
+                  "startLineNumber": 29,
+                  "startColumn": 1,
+                  "endLineNumber": 29,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n```",
+                "range": {
+                  "startLineNumber": 30,
+                  "startColumn": 1,
+                  "endLineNumber": 30,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 31,
+                  "startColumn": 1,
+                  "endLineNumber": 31,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n### 2. Thermal Diffusion App",
+                "range": {
+                  "startLineNumber": 32,
+                  "startColumn": 1,
+                  "endLineNumber": 32,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n**Location:** `thermal-diffusion-app/`",
+                "range": {
+                  "startLineNumber": 33,
+                  "startColumn": 1,
+                  "endLineNumber": 33,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 34,
+                  "startColumn": 1,
+                  "endLineNumber": 34,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nAn interactive MATLAB App Designer application for simulating thermal diffusion in materials with holes.",
+                "range": {
+                  "startLineNumber": 35,
+                  "startColumn": 1,
+                  "endLineNumber": 35,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 36,
+                  "startColumn": 1,
+                  "endLineNumber": 36,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n**Features:**",
+                "range": {
+                  "startLineNumber": 37,
+                  "startColumn": 1,
+                  "endLineNumber": 37,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Interactive GUI with parameter sliders",
+                "range": {
+                  "startLineNumber": 38,
+                  "startColumn": 1,
+                  "endLineNumber": 38,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Real-time thermal diffusion simulation",
+                "range": {
+                  "startLineNumber": 39,
+                  "startColumn": 1,
+                  "endLineNumber": 39,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Adjustable hole diameter (0.05 - 0.4 m)",
+                "range": {
+                  "startLineNumber": 40,
+                  "startColumn": 1,
+                  "endLineNumber": 40,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Adjustable source temperature",
+                "range": {
+                  "startLineNumber": 41,
+                  "startColumn": 1,
+                  "endLineNumber": 41,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- Visual representation of temperature distribution",
+                "range": {
+                  "startLineNumber": 42,
+                  "startColumn": 1,
+                  "endLineNumber": 42,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 43,
+                  "startColumn": 1,
+                  "endLineNumber": 43,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n**Usage:**",
+                "range": {
+                  "startLineNumber": 44,
+                  "startColumn": 1,
+                  "endLineNumber": 44,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n```matlab",
+                "range": {
+                  "startLineNumber": 45,
+                  "startColumn": 1,
+                  "endLineNumber": 45,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\ncd thermal-diffusion-app",
+                "range": {
+                  "startLineNumber": 46,
+                  "startColumn": 1,
+                  "endLineNumber": 46,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nThermalDiffusionApp",
+                "range": {
+                  "startLineNumber": 47,
+                  "startColumn": 1,
+                  "endLineNumber": 47,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n```",
+                "range": {
+                  "startLineNumber": 48,
+                  "startColumn": 1,
+                  "endLineNumber": 48,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 49,
+                  "startColumn": 1,
+                  "endLineNumber": 49,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n## Requirements",
+                "range": {
+                  "startLineNumber": 50,
+                  "startColumn": 1,
+                  "endLineNumber": 50,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 51,
+                  "startColumn": 1,
+                  "endLineNumber": 51,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- MATLAB R2020a or later (recommended)",
+                "range": {
+                  "startLineNumber": 52,
+                  "startColumn": 1,
+                  "endLineNumber": 52,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n- No additional toolboxes required for basic functionality",
+                "range": {
+                  "startLineNumber": 53,
+                  "startColumn": 1,
+                  "endLineNumber": 53,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 54,
+                  "startColumn": 1,
+                  "endLineNumber": 54,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n## Getting Started",
+                "range": {
+                  "startLineNumber": 55,
+                  "startColumn": 1,
+                  "endLineNumber": 55,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 56,
+                  "startColumn": 1,
+                  "endLineNumber": 56,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n1. Clone or download this repository",
+                "range": {
+                  "startLineNumber": 57,
+                  "startColumn": 1,
+                  "endLineNumber": 57,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n2. Navigate to the desired application folder",
+                "range": {
+                  "startLineNumber": 58,
+                  "startColumn": 1,
+                  "endLineNumber": 58,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n3. Run the corresponding MATLAB script or app",
+                "range": {
+                  "startLineNumber": 59,
+                  "startColumn": 1,
+                  "endLineNumber": 59,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 60,
+                  "startColumn": 1,
+                  "endLineNumber": 60,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n## Repository Structure",
+                "range": {
+                  "startLineNumber": 61,
+                  "startColumn": 1,
+                  "endLineNumber": 61,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 62,
+                  "startColumn": 1,
+                  "endLineNumber": 62,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n```",
+                "range": {
+                  "startLineNumber": 63,
+                  "startColumn": 1,
+                  "endLineNumber": 63,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nMCP-series/",
+                "range": {
+                  "startLineNumber": 64,
+                  "startColumn": 1,
+                  "endLineNumber": 64,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n├── README.md",
+                "range": {
+                  "startLineNumber": 65,
+                  "startColumn": 1,
+                  "endLineNumber": 65,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n├── linear-regression/",
+                "range": {
+                  "startLineNumber": 66,
+                  "startColumn": 1,
+                  "endLineNumber": 66,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n│   └── linear_regression.m",
+                "range": {
+                  "startLineNumber": 67,
+                  "startColumn": 1,
+                  "endLineNumber": 67,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n└── thermal-diffusion-app/",
+                "range": {
+                  "startLineNumber": 68,
+                  "startColumn": 1,
+                  "endLineNumber": 68,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    └── ThermalDiffusionApp.m",
+                "range": {
+                  "startLineNumber": 69,
+                  "startColumn": 1,
+                  "endLineNumber": 69,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n```",
+                "range": {
+                  "startLineNumber": 70,
+                  "startColumn": 1,
+                  "endLineNumber": 70,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 71,
+                  "startColumn": 1,
+                  "endLineNumber": 71,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n## Contributing",
+                "range": {
+                  "startLineNumber": 72,
+                  "startColumn": 1,
+                  "endLineNumber": 72,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 73,
+                  "startColumn": 1,
+                  "endLineNumber": 73,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nFeel free to add more applications or improve existing ones. Each application should be placed in its own folder with descriptive naming.",
+                "range": {
+                  "startLineNumber": 74,
+                  "startColumn": 1,
+                  "endLineNumber": 74,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 75,
+                  "startColumn": 1,
+                  "endLineNumber": 75,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n## License",
+                "range": {
+                  "startLineNumber": 76,
+                  "startColumn": 1,
+                  "endLineNumber": 76,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 77,
+                  "startColumn": 1,
+                  "endLineNumber": 77,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nThis project is provided as-is for educational and demonstration purposes.",
+                "range": {
+                  "startLineNumber": 78,
+                  "startColumn": 1,
+                  "endLineNumber": 78,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 79,
+                  "startColumn": 1,
+                  "endLineNumber": 79,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n---",
+                "range": {
+                  "startLineNumber": 80,
+                  "startColumn": 1,
+                  "endLineNumber": 80,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 81,
+                  "startColumn": 1,
+                  "endLineNumber": 81,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n*Last updated: November 21, 2025*",
+                "range": {
+                  "startLineNumber": 82,
+                  "startColumn": 1,
+                  "endLineNumber": 82,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 83,
+                  "startColumn": 1,
+                  "endLineNumber": 83,
+                  "endColumn": 1
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "manage_todo_list"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Manage and track todo items for task planning\"",
+          "pastTenseMessage": {
+            "value": "Completed: *Create README.md for the repository* (4/4)",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "todoList",
+            "sessionId": "f8d25f9a-3f06-496b-b782-cdc0c228714a",
+            "todoList": [
+              {
+                "id": "1",
+                "title": "Create folders for each app",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "2",
+                "title": "Move linear_regression.m to its folder",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "3",
+                "title": "Move ThermalDiffusionApp.m to its folder",
+                "description": "",
+                "status": "completed"
+              },
+              {
+                "id": "4",
+                "title": "Create README.md for the repository",
+                "description": "",
+                "status": "completed"
+              }
+            ]
+          },
+          "toolCallId": "d11a347c-56d2-4826-ab62-c26b60cef554",
+          "toolId": "manage_todo_list"
+        },
+        {
+          "value": "Done! I've organized your repository:\n\n**Created folders:**\n- ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\linear-regression\\",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/linear-regression/",
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/linear-regression/",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " - Contains the linear regression script\n- ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\thermal-diffusion-app\\",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app/",
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app/",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " - Contains the thermal diffusion app\n\n**Moved files:**\n- ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\linear_regression.m",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/linear_regression.m",
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/linear_regression.m",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " → ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\linear-regression\\",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/linear-regression/",
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/linear-regression/",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "\n- ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\ThermalDiffusionApp.m",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m",
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " → ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          },
+          "uris": {}
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\thermal-diffusion-app\\",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app/",
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/thermal-diffusion-app/",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "\n\n**Added ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\README.md",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/README.md",
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/README.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "** with:\n- Repository overview\n- Description of each application\n- Usage instructions\n- Repository structure\n- Requirements\n\nYour repository is now well-organized with each app in its own folder and comprehensive documentation.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/ydebray/Downloads/MCP-series/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_f0b8d372-7004-433b-b196-0cc9cf04fc6b",
+      "result": {
+        "timings": {
+          "firstProgress": 4137,
+          "totalElapsed": 61610
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<context>\nThe current date is November 21, 2025.\n</context>\n<reminderInstructions>\nWhen using the replace_string_in_file tool, include 3-5 lines of unchanged code before and after the string you want to replace, to make it unambiguous which part of the file should be edited.\nFor maximum efficiency, whenever you plan to perform multiple independent edit operations, invoke them simultaneously using multi_replace_string_in_file tool rather than sequentially. This will greatly improve user's cost and time efficiency leading to a better user experience. Do not announce which tool you're using (for example, avoid saying \"I'll implement all the changes using multi_replace_string_in_file\").\nDo NOT create a new markdown file to document each change or summarize your work unless specifically requested by the user.\n\n</reminderInstructions>\n<userRequest>\ncreate a readme and organise the repo with different folder for each apps\n</userRequest>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "renderedGlobalContext": [
+            {
+              "type": 1,
+              "text": "<environment_info>\nThe user's current OS is: Windows\nThe user's default shell is: \"cmd.exe\". When you generate terminal commands, please generate them correctly for this shell.\n</environment_info>\n<workspace_info>\nI am working in a workspace with the following folders:\n- c:\\Users\\ydebray\\Downloads\\MCP-series \nI am working in a workspace that has the following structure:\n```\nlinear_regression.m\nThermalDiffusionApp.m\n```\nThis is the state of the context at this point in the conversation. The view of the workspace structure may be truncated. You can use tools to collect more context if needed.\n</workspace_info>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "cacheKey": "file:///c%3A/Users/ydebray/Downloads/MCP-series",
+          "toolCallRounds": [
+            {
+              "response": "I'll help you organize the repository by creating folders for each app and adding a README file. ",
+              "toolCalls": [
+                {
+                  "name": "read_file",
+                  "arguments": "{\"filePath\": \"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\linear_regression.m\", \"startLine\": 1, \"endLine\": 50}",
+                  "id": "tooluse_NIWYl5vxR6S5_UBV3w1Q0A__vscode-1763730282661"
+                },
+                {
+                  "name": "read_file",
+                  "arguments": "{\"filePath\": \"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\ThermalDiffusionApp.m\", \"startLine\": 1, \"endLine\": 50}",
+                  "id": "tooluse_kQf-jjhtTsCtjlDYT0O9dw__vscode-1763730282662"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "b60b30bf-51cb-43f9-a9a6-8fbd5b3532ee"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "manage_todo_list",
+                  "arguments": "{\"operation\": \"write\", \"todoList\": [{\"id\":1,\"title\":\"Create folders for each app\",\"status\":\"not-started\"},{\"id\":2,\"title\":\"Move linear_regression.m to its folder\",\"status\":\"not-started\"},{\"id\":3,\"title\":\"Move ThermalDiffusionApp.m to its folder\",\"status\":\"not-started\"},{\"id\":4,\"title\":\"Create README.md for the repository\",\"status\":\"not-started\"}]}",
+                  "id": "tooluse_XKFIAGiwSsKNjETCgO7sKA__vscode-1763730282663"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "7b48d84e-5a2e-4407-b499-3cf2a995e6d7"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "manage_todo_list",
+                  "arguments": "{\"todoList\": [{\"title\":\"Create folders for each app\",\"id\":1,\"status\":\"in-progress\"},{\"title\":\"Move linear_regression.m to its folder\",\"id\":2,\"status\":\"not-started\"},{\"title\":\"Move ThermalDiffusionApp.m to its folder\",\"id\":3,\"status\":\"not-started\"},{\"title\":\"Create README.md for the repository\",\"id\":4,\"status\":\"not-started\"}], \"operation\": \"write\"}",
+                  "id": "tooluse_52-FtGuVRdCvrmOpcBtIMQ__vscode-1763730282664"
+                },
+                {
+                  "name": "create_directory",
+                  "arguments": "{\"dirPath\": \"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\linear-regression\"}",
+                  "id": "tooluse_ykDAigThQYKDpbPK90tMPQ__vscode-1763730282665"
+                },
+                {
+                  "name": "create_directory",
+                  "arguments": "{\"dirPath\": \"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\thermal-diffusion-app\"}",
+                  "id": "tooluse_DaZcDaf_RRWJgc-EZ5U1SA__vscode-1763730282666"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "8c43fb7e-5d42-48d7-9a1b-c711fc1c632f"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "manage_todo_list",
+                  "arguments": "{\"todoList\": [{\"title\":\"Create folders for each app\",\"id\":1,\"status\":\"completed\"},{\"title\":\"Move linear_regression.m to its folder\",\"id\":2,\"status\":\"in-progress\"},{\"title\":\"Move ThermalDiffusionApp.m to its folder\",\"id\":3,\"status\":\"not-started\"},{\"title\":\"Create README.md for the repository\",\"id\":4,\"status\":\"not-started\"}], \"operation\": \"write\"}",
+                  "id": "tooluse_x53Up-NoRDyyPkr5UtFD-A__vscode-1763730282667"
+                },
+                {
+                  "name": "run_in_terminal",
+                  "arguments": "{\"command\": \"move \\\"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\linear_regression.m\\\" \\\"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\linear-regression\\\\linear_regression.m\\\"\", \"explanation\": \"Moving linear_regression.m to the linear-regression folder\", \"isBackground\": false}",
+                  "id": "tooluse_Rt5ag7_RSGiwPf2kfAQK0g__vscode-1763730282668"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "3102b46e-90e4-4304-bf0c-755231b6ed31"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "manage_todo_list",
+                  "arguments": "{\"todoList\": [{\"title\":\"Create folders for each app\",\"id\":1,\"status\":\"completed\"},{\"title\":\"Move linear_regression.m to its folder\",\"id\":2,\"status\":\"completed\"},{\"title\":\"Move ThermalDiffusionApp.m to its folder\",\"id\":3,\"status\":\"in-progress\"},{\"title\":\"Create README.md for the repository\",\"id\":4,\"status\":\"not-started\"}], \"operation\": \"write\"}",
+                  "id": "tooluse_ZHAK0XB1RfO0zkNJ5O69ew__vscode-1763730282669"
+                },
+                {
+                  "name": "run_in_terminal",
+                  "arguments": "{\"explanation\": \"Moving ThermalDiffusionApp.m to the thermal-diffusion-app folder\", \"command\": \"move \\\"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\ThermalDiffusionApp.m\\\" \\\"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\thermal-diffusion-app\\\\ThermalDiffusionApp.m\\\"\", \"isBackground\": false}",
+                  "id": "tooluse_lSkxUuGaR4-xk44Sx3lJiQ__vscode-1763730282670"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "6383b689-cdfb-41af-859e-2c8a7863f86b"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "manage_todo_list",
+                  "arguments": "{\"todoList\": [{\"title\":\"Create folders for each app\",\"id\":1,\"status\":\"completed\"},{\"title\":\"Move linear_regression.m to its folder\",\"id\":2,\"status\":\"completed\"},{\"title\":\"Move ThermalDiffusionApp.m to its folder\",\"id\":3,\"status\":\"completed\"},{\"title\":\"Create README.md for the repository\",\"id\":4,\"status\":\"in-progress\"}], \"operation\": \"write\"}",
+                  "id": "tooluse_h3zTxPmVTtKjoS_c8sNuGA__vscode-1763730282671"
+                },
+                {
+                  "name": "create_file",
+                  "arguments": "{\"filePath\": \"c:\\\\Users\\\\ydebray\\\\Downloads\\\\MCP-series\\\\README.md\", \"content\": \"# MCP Series - MATLAB Applications\\n\\nThis repository contains MATLAB applications demonstrating various computational techniques and simulations.\\n\\n## Overview\\n\\nA collection of MATLAB scripts and applications showcasing data analysis, modeling, and interactive simulations.\\n\\n## Applications\\n\\n### 1. Linear Regression\\n**Location:** `linear-regression/`\\n\\nA simple linear regression example that demonstrates:\\n- Data generation with controlled noise\\n- Polynomial fitting using `polyfit`\\n- Model evaluation with R-squared metric\\n- Visualization of data and fitted line\\n\\n**Features:**\\n- Generates synthetic data with a known linear relationship\\n- Performs least-squares linear regression\\n- Calculates goodness-of-fit metrics\\n- Creates scatter plots with fitted regression line\\n\\n**Usage:**\\n```matlab\\ncd linear-regression\\nlinear_regression\\n```\\n\\n### 2. Thermal Diffusion App\\n**Location:** `thermal-diffusion-app/`\\n\\nAn interactive MATLAB App Designer application for simulating thermal diffusion in materials with holes.\\n\\n**Features:**\\n- Interactive GUI with parameter sliders\\n- Real-time thermal diffusion simulation\\n- Adjustable hole diameter (0.05 - 0.4 m)\\n- Adjustable source temperature\\n- Visual representation of temperature distribution\\n\\n**Usage:**\\n```matlab\\ncd thermal-diffusion-app\\nThermalDiffusionApp\\n```\\n\\n## Requirements\\n\\n- MATLAB R2020a or later (recommended)\\n- No additional toolboxes required for basic functionality\\n\\n## Getting Started\\n\\n1. Clone or download this repository\\n2. Navigate to the desired application folder\\n3. Run the corresponding MATLAB script or app\\n\\n## Repository Structure\\n\\n```\\nMCP-series/\\n├── README.md\\n├── linear-regression/\\n│   └── linear_regression.m\\n└── thermal-diffusion-app/\\n    └── ThermalDiffusionApp.m\\n```\\n\\n## Contributing\\n\\nFeel free to add more applications or improve existing ones. Each application should be placed in its own folder with descriptive naming.\\n\\n## License\\n\\nThis project is provided as-is for educational and demonstration purposes.\\n\\n---\\n\\n*Last updated: November 21, 2025*\\n\"}",
+                  "id": "tooluse_yxhw80EbSuidl8tLm-q4Jg__vscode-1763730282672"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "e4aad4fc-ffb0-44a7-be73-3a5f79675e1d"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "manage_todo_list",
+                  "arguments": "{\"todoList\": [{\"title\":\"Create folders for each app\",\"id\":1,\"status\":\"completed\"},{\"title\":\"Move linear_regression.m to its folder\",\"id\":2,\"status\":\"completed\"},{\"title\":\"Move ThermalDiffusionApp.m to its folder\",\"id\":3,\"status\":\"completed\"},{\"title\":\"Create README.md for the repository\",\"id\":4,\"status\":\"completed\"}], \"operation\": \"write\"}",
+                  "id": "tooluse_hc3SD3RfQguPYrY2RmtOmA__vscode-1763730282673"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "a314ffa3-5f9f-468d-aceb-dca773963047"
+            },
+            {
+              "response": "Done! I've organized your repository:\n\n**Created folders:**\n- `linear-regression/` - Contains the linear regression script\n- `thermal-diffusion-app/` - Contains the thermal diffusion app\n\n**Moved files:**\n- `linear_regression.m` → `linear-regression/`\n- `ThermalDiffusionApp.m` → `thermal-diffusion-app/`\n\n**Added README.md** with:\n- Repository overview\n- Description of each application\n- Usage instructions\n- Repository structure\n- Requirements\n\nYour repository is now well-organized with each app in its own folder and comprehensive documentation.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "8936c0ca-533c-4c41-bb1c-cf13a9eaa0e0"
+            }
+          ],
+          "toolCallResults": {
+            "tooluse_NIWYl5vxR6S5_UBV3w1Q0A__vscode-1763730282661": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 23,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "que",
+                      "children": [
+                        {
+                          "type": 1,
+                          "ctor": 2,
+                          "ctorName": "Xt",
+                          "children": [
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 36,
+                                  "text": "```matlab\n",
+                                  "references": [
+                                    {
+                                      "anchor": {
+                                        "$mid": 1,
+                                        "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\linear_regression.m",
+                                        "_sep": 1,
+                                        "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/linear_regression.m",
+                                        "path": "/c:/Users/ydebray/Downloads/MCP-series/linear_regression.m",
+                                        "scheme": "file"
+                                      },
+                                      "options": {
+                                        "isFromTool": true
+                                      }
+                                    }
+                                  ],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 36
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 35,
+                                  "text": "% Linear Regression Example\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 35
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 34,
+                                  "text": "% Generate sample data\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 34
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 33,
+                                  "text": "rng(42); % For reproducibility\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 33
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 32,
+                                  "text": "x = (1:50)';\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 32
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 31,
+                                  "text": "y = 2*x + 5 + 10*randn(size(x)); % y = 2x + 5 + noise\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 31
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 30,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 30
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 29,
+                                  "text": "% Perform linear regression\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 29
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 28,
+                                  "text": "p = polyfit(x, y, 1); % Fit a polynomial of degree 1 (linear)\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 28
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 27,
+                                  "text": "y_fit = polyval(p, x); % Evaluate the fitted line\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 27
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 26,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 26
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 25,
+                                  "text": "% Display results\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 25
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 24,
+                                  "text": "fprintf('Linear Regression Results:\\n');\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 24
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 23,
+                                  "text": "fprintf('Slope (m): %.4f\\n', p(1));\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 23
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 22,
+                                  "text": "fprintf('Intercept (b): %.4f\\n', p(2));\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 22
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 21,
+                                  "text": "fprintf('Equation: y = %.4f*x + %.4f\\n', p(1), p(2));\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 21
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 20,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 20
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 19,
+                                  "text": "% Calculate R-squared\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 19
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 18,
+                                  "text": "ss_res = sum((y - y_fit).^2);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 18
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 17,
+                                  "text": "ss_tot = sum((y - mean(y)).^2);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 17
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 16,
+                                  "text": "r_squared = 1 - (ss_res / ss_tot);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 16
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 15,
+                                  "text": "fprintf('R-squared: %.4f\\n', r_squared);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 15
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 14,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 14
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 13,
+                                  "text": "% Create visualization\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 13
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 12,
+                                  "text": "figure;\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 12
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 11,
+                                  "text": "scatter(x, y, 'b', 'filled');\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 11
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 10,
+                                  "text": "hold on;\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 10
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 9,
+                                  "text": "plot(x, y_fit, 'r-', 'LineWidth', 2);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 9
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 8,
+                                  "text": "xlabel('X');\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 8
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 7,
+                                  "text": "ylabel('Y');\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 7
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 6,
+                                  "text": "title('Linear Regression');\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 6
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 5,
+                                  "text": "legend('Data', 'Fitted Line', 'Location', 'best');\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 5
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 4,
+                                  "text": "grid on;\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 4
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 3,
+                                  "text": "hold off;\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 3
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 2,
+                                  "text": "\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 2
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 36,
+                                  "text": "```",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 36
+                              },
+                              "references": []
+                            }
+                          ],
+                          "props": {},
+                          "references": []
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            },
+            "tooluse_kQf-jjhtTsCtjlDYT0O9dw__vscode-1763730282662": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 23,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "que",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "File: `",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "c:\\Users\\ydebray\\Downloads\\MCP-series\\ThermalDiffusionApp.m",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "`. Lines ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "1",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " to ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "50",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " (",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "243",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " lines total): ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 1,
+                          "ctor": 2,
+                          "ctorName": "Xt",
+                          "children": [
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 52,
+                                  "text": "```matlab\n",
+                                  "references": [
+                                    {
+                                      "anchor": {
+                                        "$mid": 1,
+                                        "fsPath": "c:\\Users\\ydebray\\Downloads\\MCP-series\\ThermalDiffusionApp.m",
+                                        "_sep": 1,
+                                        "external": "file:///c%3A/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m",
+                                        "path": "/c:/Users/ydebray/Downloads/MCP-series/ThermalDiffusionApp.m",
+                                        "scheme": "file"
+                                      },
+                                      "options": {
+                                        "isFromTool": true
+                                      }
+                                    }
+                                  ],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 52
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 51,
+                                  "text": "classdef ThermalDiffusionApp < matlab.apps.AppBase\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 51
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 50,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 50
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 49,
+                                  "text": "    % Properties that correspond to app components\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 49
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 48,
+                                  "text": "    properties (Access = public)\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 48
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 47,
+                                  "text": "        UIFigure                  matlab.ui.Figure\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 47
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 46,
+                                  "text": "        GridLayout                matlab.ui.container.GridLayout\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 46
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 45,
+                                  "text": "        LeftPanel                 matlab.ui.container.Panel\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 45
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 44,
+                                  "text": "        HoleDiameterSliderLabel   matlab.ui.control.Label\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 44
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 43,
+                                  "text": "        HoleDiameterSlider        matlab.ui.control.Slider\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 43
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 42,
+                                  "text": "        HoleDiameterValue         matlab.ui.control.Label\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 42
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 41,
+                                  "text": "        SourceTempSliderLabel     matlab.ui.control.Label\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 41
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 40,
+                                  "text": "        SourceTempSlider          matlab.ui.control.Slider\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 40
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 39,
+                                  "text": "        SourceTempValue           matlab.ui.control.Label\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 39
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 38,
+                                  "text": "        SimulateButton            matlab.ui.control.Button\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 38
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 37,
+                                  "text": "        RightPanel                matlab.ui.container.Panel\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 37
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 36,
+                                  "text": "        UIAxes                    matlab.ui.control.UIAxes\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 36
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 35,
+                                  "text": "    end\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 35
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 34,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 34
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 33,
+                                  "text": "    % Component initialization\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 33
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 32,
+                                  "text": "    methods (Access = private)\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 32
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 31,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 31
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 30,
+                                  "text": "        % Create UIFigure and components\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 30
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 29,
+                                  "text": "        function createComponents(app)\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 29
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 28,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 28
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 27,
+                                  "text": "            % Create UIFigure and hide until all components are created\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 27
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 26,
+                                  "text": "            app.UIFigure = uifigure('Visible', 'off');\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 26
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 25,
+                                  "text": "            app.UIFigure.Position = [100 100 900 600];\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 25
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 24,
+                                  "text": "            app.UIFigure.Name = 'Thermal Diffusion Simulation';\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 24
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 23,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 23
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 22,
+                                  "text": "            % Create GridLayout\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 22
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 21,
+                                  "text": "            app.GridLayout = uigridlayout(app.UIFigure);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 21
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 20,
+                                  "text": "            app.GridLayout.ColumnWidth = {'1x', '3x'};\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 20
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 19,
+                                  "text": "            app.GridLayout.RowHeight = {'1x'};\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 19
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 18,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 18
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 17,
+                                  "text": "            % Create LeftPanel\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 17
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 16,
+                                  "text": "            app.LeftPanel = uipanel(app.GridLayout);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 16
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 15,
+                                  "text": "            app.LeftPanel.Title = 'Parameters';\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 15
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 14,
+                                  "text": "            app.LeftPanel.Layout.Row = 1;\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 14
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 13,
+                                  "text": "            app.LeftPanel.Layout.Column = 1;\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 13
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 12,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 12
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 11,
+                                  "text": "            % Create HoleDiameterSliderLabel\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 11
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 10,
+                                  "text": "            app.HoleDiameterSliderLabel = uilabel(app.LeftPanel);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 10
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 9,
+                                  "text": "            app.HoleDiameterSliderLabel.Position = [20 480 120 22];\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 9
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 8,
+                                  "text": "            app.HoleDiameterSliderLabel.Text = 'Hole Diameter (m)';\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 8
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 7,
+                                  "text": "\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 7
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 6,
+                                  "text": "            % Create HoleDiameterSlider\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 6
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 5,
+                                  "text": "            app.HoleDiameterSlider = uislider(app.LeftPanel);\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 5
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 4,
+                                  "text": "            app.HoleDiameterSlider.Limits = [0.05 0.4];\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 4
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 3,
+                                  "text": "            app.HoleDiameterSlider.Value = 0.2;\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 3
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 2,
+                                  "text": "            app.HoleDiameterSlider.Position = [20 450 180 3];\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 2
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "Kfe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 52,
+                                  "text": "```",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 52
+                              },
+                              "references": []
+                            }
+                          ],
+                          "props": {},
+                          "references": []
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            },
+            "tooluse_XKFIAGiwSsKNjETCgO7sKA__vscode-1763730282663": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Successfully wrote todo list\n\nWarning: Did you mean to update so many todos at the same time? Consider working on them one by one."
+                }
+              ]
+            },
+            "tooluse_52-FtGuVRdCvrmOpcBtIMQ__vscode-1763730282664": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Successfully wrote todo list"
+                }
+              ]
+            },
+            "tooluse_ykDAigThQYKDpbPK90tMPQ__vscode-1763730282665": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Created directory at c:\\Users\\ydebray\\Downloads\\MCP-series\\linear-regression"
+                }
+              ]
+            },
+            "tooluse_DaZcDaf_RRWJgc-EZ5U1SA__vscode-1763730282666": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Created directory at c:\\Users\\ydebray\\Downloads\\MCP-series\\thermal-diffusion-app"
+                }
+              ]
+            },
+            "tooluse_x53Up-NoRDyyPkr5UtFD-A__vscode-1763730282667": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Successfully wrote todo list"
+                }
+              ]
+            },
+            "tooluse_Rt5ag7_RSGiwPf2kfAQK0g__vscode-1763730282668": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "n.m\"                                         "
+                }
+              ]
+            },
+            "tooluse_ZHAK0XB1RfO0zkNJ5O69ew__vscode-1763730282669": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Successfully wrote todo list"
+                }
+              ]
+            },
+            "tooluse_lSkxUuGaR4-xk44Sx3lJiQ__vscode-1763730282670": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "fusionApp.m\"                                 "
+                }
+              ]
+            },
+            "tooluse_h3zTxPmVTtKjoS_c8sNuGA__vscode-1763730282671": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Successfully wrote todo list"
+                }
+              ]
+            },
+            "tooluse_yxhw80EbSuidl8tLm-q4Jg__vscode-1763730282672": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 23,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "d0",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "c:\\Users\\ydebray\\Downloads\\MCP-series\\README.md",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            },
+            "tooluse_hc3SD3RfQguPYrY2RmtOmA__vscode-1763730282673": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Successfully wrote todo list"
+                }
+              ]
+            }
+          },
+          "modelMessageId": "d01f3652-8a9e-44d6-b0cd-27d91b2365c7",
+          "responseId": "160f654d-b6f9-4dad-b103-134b0258096b",
+          "sessionId": "04cfc880-c6a8-4626-821d-4f8b8c7e3349",
+          "agentId": "github.copilot.editsAgent"
+        },
+        "details": "Claude Sonnet 4.5 • 0.9x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.33.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edit files in your workspace in agent mode",
+        "when": "config.chat.agent.enabled",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [
+          {
+            "name": "list"
+          }
+        ],
+        "disambiguation": []
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1763733098395,
+      "modelId": "copilot/auto"
+    }
+  ]
+}
